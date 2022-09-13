@@ -1,0 +1,23 @@
+{
+  "name": "rocketmovies",
+  "version": "1.0.0",
+  "description": "API desenvolvida para o desafio da Rocketseat, para um sistema de um cinema.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Allan Rieri",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "knex": "^2.3.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
